@@ -13,6 +13,9 @@ http://qiita.com/suzumi/items/8ce18bc90c942663d1e6
 
 - src/  
 開発に当たってスクリプトをまとめてある。  
+train.py、test.pyはランダムフォレストを利用したベースの処理フロー（正答率は62%ほど）。  
+rgeos.pyはhttps://github.com/rgeos/meetup/blob/master/Titanic.ipynb
+を参考にロジスティックモデルを組んだもの（正答率75%ほど）。  
 
 - models/  
 作成したモデルを保存する  
