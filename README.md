@@ -17,5 +17,21 @@ train.py、test.pyはランダムフォレストを利用したベースの処�
 rgeos.pyはhttps://github.com/rgeos/meetup/blob/master/Titanic.ipynb
 を参考にロジスティックモデルを組んだもの（正答率75%ほど）。  
 
-- models/  
+- model/  
 作成したモデルを保存する  
+
+### 実行方法
+- ランダムフォレスト  
+プロジェクトルート下で、  
+```
+python src/train.py  
+python src/test.py  
+```
+で学習→予測が可能。モデルに関してはmodelディレクトリに、予測結果に関してはoutputディレクトリに保存される。（kaggleの提出の形式になっている）  
+
+- ロジスティック回帰
+プロジェクトルート下で、
+```
+python src/rgeos.py
+```
+でモデルの作成、予測が可能。予測結果に関してはoutputディレクトリに保存される。（kaggleの提出の形式になっている）
