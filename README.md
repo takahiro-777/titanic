@@ -21,6 +21,12 @@ rgeos.pyはhttps://github.com/rgeos/meetup/blob/master/Titanic.ipynb
 作成したモデルを保存する  
 
 ### 実行方法
+- 設定
+```
+git clone https://github.com/takahiro-777/titanic.git
+cd titanic  #プロジェクトルートに移動
+```
+
 - ランダムフォレスト  
 プロジェクトルート下で、  
 ```
